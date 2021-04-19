@@ -99,3 +99,46 @@ footer h2 {
     justify-content: right;
     display: flex;
 }
+
+.work-wrapper {
+    display: flex;
+    flex-direction: row;
+    padding: 40px 5px;
+}
+.work-wrapper h2 {
+    font-size: 48px;
+    border-right: 3px solid;
+    padding-bottom: 20px;
+    text-align: center;
+    margin: 0 auto 15px auto;
+    width: 50%;
+    display: flex
+}
+
+.work-wrapper p {
+    color: skyblue;
+    text-align: center;
+    justify-content: right;
+    display: flex;
+}
+
+.work-grid {
+    display: flex;
+}
+.content-one {
+    display: flex;
+    align-items: flex-end;
+    background-image: url("../assets/kickspro.png");
+    background-size: cover;
+
+}
+
+.content-one h3 {
+    background-color: slategray;
+
+}
+
+.work-info {
+    background-color: slategray;
+    display: flex;
+}
